@@ -1,4 +1,36 @@
+package basics;
+
 import java.util.Scanner;
+
+/*
+ * ---------------------------------
+ * HelloWorld program
+ *
+ * ---------------------------------
+ * Data types
+ * primitive -
+ * (i) integral - byte, short, int, long, float, double
+ * (ii) non-integral - char, boolean
+ * non-primitive - Arrays, Strings etc.
+ *
+ * ---------------------------------
+ *  TypeCasting
+ *  (i) Implicit - internally done by the compiler
+ *  (ii) Explicit - need to specify it separately
+ *
+ * ---------------------------------
+ * conditional statements
+ * if, if-else, if-elseif ladder
+ * switch case
+ *
+ * ---------------------------------
+ * loops
+ * (i) for
+ * (ii) while
+ * (iii) do-while
+ * (iv) forEach
+ *
+ * */
 
 public class HelloWorld {
 

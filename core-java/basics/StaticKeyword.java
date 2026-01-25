@@ -1,5 +1,4 @@
 public class StaticKeyword {
-
   // variables
   public static short shortNumber;
   public static byte byteNumber;
@@ -21,7 +20,6 @@ public class StaticKeyword {
   public static boolean[] booleanArr = new boolean[5];
 
   public static void main(String[] args) {
-
     // printing out the default values of variables
     System.out.println("Printing default values of static variables");
     System.out.println("Short default value: " + shortNumber);
@@ -67,6 +65,5 @@ public class StaticKeyword {
     for (boolean bl : booleanArr) {
       System.out.print(bl + ", ");
     }
-
   }
 }

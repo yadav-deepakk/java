@@ -1,5 +1,6 @@
 package basics;
 
+import java.util.List;
 import java.util.Scanner;
 
 /*
@@ -135,6 +136,9 @@ public class HelloWorld {
     for (int element : array) {
       System.out.println(element);
     }
+
+    List<Integer> list = List.of(1, 2, 3, 6, 11, 32, 45);
+    list.forEach(x -> System.out.println(x));
   }
 
   public static void main(String args[]) {

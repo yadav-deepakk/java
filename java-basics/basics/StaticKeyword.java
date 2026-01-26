@@ -1,3 +1,5 @@
+package basics;
+
 public class StaticKeyword {
   // variables
   public static short shortNumber;

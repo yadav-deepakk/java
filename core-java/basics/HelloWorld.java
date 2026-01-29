@@ -6,6 +6,7 @@ import java.util.Scanner;
 /*
  * ---------------------------------
  * HelloWorld program
+ * ---------------------------------
  *
  * ---------------------------------
  * Data types
@@ -13,16 +14,21 @@ import java.util.Scanner;
  * (i) integral - byte, short, int, long, float, double
  * (ii) non-integral - char, boolean
  * non-primitive - Arrays, Strings etc.
+ * ---------------------------------
  *
  * ---------------------------------
  *  TypeCasting
  *  (i) Implicit - internally done by the compiler
  *  (ii) Explicit - need to specify it separately
+ * ---------------------------------
+ *
  *
  * ---------------------------------
  * conditional statements
  * if, if-else, if-elseif ladder
  * switch case
+ * ---------------------------------
+ *
  *
  * ---------------------------------
  * loops
@@ -30,6 +36,8 @@ import java.util.Scanner;
  * (ii) while
  * (iii) do-while
  * (iv) forEach
+ * ---------------------------------
+ *
  *
  * */
 
@@ -96,7 +104,10 @@ public class HelloWorld {
     }
   }
 
-  public static void switchCase(String[] args) { // pass cmdline args to run this
+  public static void switchCase(String[] args) {
+    // pass cmdline args to run this
+    // operation number1 number2
+    // eg. ADD 4 5
     System.out.println("--------- Switch Case -----------");
     if (args.length <= 0) {
       System.out.println("No cmdline args passed so skipping the switch case!");

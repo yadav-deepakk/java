@@ -1,16 +1,17 @@
 ## Java
+
 ### _Introduction_
 java is a high-level, object-oriented programming language used to develope
 web-app, mobile apps, iot based applications, games, enterprise backends and
 desktop applications
 
-`Java features are`
+`Java Features`
 1) Platform independent - Write once, run anywhere,
 2) Opensource and Object Oriented
 3) Robust and secure
 4) Multithreading and concurrency control
 
-`Famous applications that were made in java`
+`Java Application`
 - Mobile applications made for android devices
 - Web applications developement
 - Desktop GUI applications
@@ -21,8 +22,8 @@ desktop applications
 
 ### _Data_ _types_
 - `Primitive`
-    - `Integral` byte, short, int, long, float, double
-    - `Non - Integral` char, boolean
+    - `Integral` - byte, short, int, long, float, double
+    - `Non - Integral` - char, boolean
 
     | data type | size(in bytes) | default value |
     |-----------|----------------|---------------|
@@ -37,7 +38,7 @@ desktop applications
 
 
 - `Non - Primitive`
-    - Arrays, Strings and User Defined types
+    - Arrays, Strings and User-Defined types
 
 ### _Type_ _casting_
 - `Implicit` -
@@ -45,7 +46,7 @@ desktop applications
 int a = 122;
 int b = 3;
 // implicitly float value will be casted to integer
-int res = a/b;
+float res = a/b;
 ```
 
 - `Explicit`
@@ -69,11 +70,11 @@ if(condition) {
 if(condition) {
     // statements need be executed when condition is true
 } else {
-   // statements need to executed when condition is false
+    // statements need to be executed when condition is false
 }
 ```
 
-- if else if ladder
+- if-else-if ladder
 ```java
 if(condtion1) {
     // statements need be executed when condition1 is true
@@ -84,6 +85,7 @@ if(condtion1) {
 }
 
 ```
+
 - switch case
 ```java
 //old syntax
@@ -103,21 +105,21 @@ switch(choice){
     case CASE_V:
         // statement need to be executed when case-v is meet;
         break;
-    default
+    default:
         // statement need to be executed when none of above cases met.
 }
 
-// newer syntax after java 17
+// newer syntax after java 14
 switch(choice){
-    case SUNDAY, SATUREDAY -> System.out.println("WEEKDAY");
-    case MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY -> System.out.println("WEEKEND");
+    case SUNDAY, SATUREDAY -> System.out.println("WEEK_END");
+    case MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY -> System.out.println("WEEK_DAY");
 }
 ```
 
 ### _Loops_
 1) for
 ```java
-for(initialization of counter; conditon; updation_in_counter) {
+for(initialization; conditon; update) {
     // statements need to be executed.
 }
 ```
@@ -133,10 +135,10 @@ while (condition) {
 3) do-while
 ```java
 // initialization
-do{
+do {
     // statements need to be executed.
     // updation to counter variable.
-}while(condition);
+} while(condition);
 ```
 
 4) forEach
@@ -145,11 +147,24 @@ collections/Array intialization list
 list.forEach(element -> System.out.println("element: ", element))
 ```
 
-`break and continue statements inside loops`
+**_break_ _and_ _continue_**
 
 **break** - break statment inside the loop is used to break the normal execution of program
 and get out of the loop.
+```java
+for (int i=0; i<10; i++) {
+    System.out.println(" " + i);
+    if(i==2) break;
+}
+// 0 1 2
+```
 
-**continue** -
-
+**continue** - continue statement is used to skip and particular iteration
+```java
+for (int i=0; i<10; i++) {
+    if(i==2) continue; // skips this iteration
+    System.out.println(" " + i);
+}
+// 0 1 3 4 5 6 7 8 9
+```
 

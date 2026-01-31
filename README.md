@@ -1,6 +1,7 @@
 ## Outline
 
 ### Java Fundamentals
+ [link](./core-java/basics/README.md)
  - Java 21, 25 (LTS)
  - OOPs concepts
  - Exception Handling
